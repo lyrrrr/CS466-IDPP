@@ -1,0 +1,21 @@
+digraph {
+	graph[size="7.75,10.25"]
+	node_c1 -> s1;
+	node_c1 -> s3;
+	node_c1 [label=""];
+	node_c2 -> node_c1 [label="c1"];
+	node_c2 -> s5;
+	node_c2 [label=""];
+	node_c2 [label=""];
+	node_c1 [label=""];
+	node_c3 -> node_c4 [label="c4"];
+	node_c3 -> s2;
+	node_c3 [label=""];
+	node_c3 [label=""];
+	node_c4 [label=""];
+	node_c4 -> s4;
+	node_c4 [label=""];
+	root -> node_c2 [label="c2"];
+	root -> node_c3 [label="c3"];
+	root [label=""];
+}
