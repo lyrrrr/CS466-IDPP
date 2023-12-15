@@ -17,3 +17,5 @@ Then conduct the following command to get the plot:
 ```shell
 dot -Tpng outfilename.dot -o output_tree.png
 ```
+## Experiment
+Out experiments shown in our report are implemented in experiments.ipynb to verify correctness and compare the speed between 2 algorithms.
